@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="eft_styles.css">
+</head>
+<body>
+    <section id="contact-form">
+      <h2>Check Deposit Form</h2>
+      <form id="contact" name="contact" accept-charset="utf-8">
+        <h3>Requestor Information<hr></h3>
+        <label><span>Name</span><input name="name" type="text" placeholder="Name"/></label>
+        <label><span>Phone Number</span><input name="phonenumber" type="text" placeholder="Phone Number"/></label>
+        <label><span>Submission Date</span><input name="submissiondate" type="text" placeholder="Submission Date"/></label>
+        <label><span>Credit Memo</span>
+            <select>
+                <option value="Select">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </label>  
+        <label><span>Credit Memo Number</span><input name="creditmemonumber" type="text" placeholder="Credit Memo Number"/></label>
+        <label><span>PO</span>
+            <select>
+                <option value="Select">Select</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </label>  
+        <label><span>PO Number</span><input name="ponumber" type="text" placeholder="PO Number"/></label>
+        <label><span>Reason for Check Deposit</span><textarea name="message" placeholder="Reason for Check Deposit"></textarea></label>
+        <label><span>Payee Zip</span><input name="name" type="text" placeholder="Payee Zip"/></label>
+        <label><span>Invoice Number</span><input name="name" type="text" placeholder="Invoice Number"/></label>
+        <h3>Delivery Location<hr></h3>
+        <label><span>Address</span><textarea name="message" placeholder="The the address the goods/services were delivered to or benefited from"></textarea></label>
+        <h3>Cost Center<hr></h3>
+        <h3>Additional Information<hr></h3>
+        <label><span>Comments</span><textarea name="message" placeholder="Comments"></textarea></label>
+        <input name="submit" type="submit" value="Send"/>
+      </form>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="eft_app.js"></script>
+
+</body>
+</html>
